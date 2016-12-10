@@ -13,21 +13,21 @@
 	            <td><label for="username">Username</label></td>
 	            <td>
 	                <input name="username" type="text" th:value="${username}"></input>
-	                <span class="error" th:text="${username_error}"></span>
+	                <div><span class="error" th:text="${username_error}"></span></div>
 	            </td>
 	        </tr>
 	        <tr>
 	            <td><label for="password">Password</label></td>
 	            <td>
 	                <input name="password" type="password"></input>
-	                <span class="error" th:text="${password_error}"></span>
+	                <div><span class="error" th:text="${password_error}"></span></div>
 	            </td>
 	        </tr>
 	        <tr>
 	            <td><label for="verify">Verify Password</label></td>
 	            <td>
 	                <input name="verify" type="password"></input>
-	                <span class="error" th:text="${verify_error}"></span>
+	                <div><span class="error" th:text="${verify_error}"></span></div>
 	            </td>
 	        </tr>
 	    </table>

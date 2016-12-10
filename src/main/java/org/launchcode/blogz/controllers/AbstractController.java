@@ -14,8 +14,8 @@ public abstract class AbstractController {
 	
 	@Autowired
 	protected PostDao postDao;
-
-    public static final String userSessionKey = "user_id";
+   
+    public static final String userSessionKey = 	"user_id";
 
     protected User getUserFromSession(HttpSession session) {
     	
